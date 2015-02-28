@@ -17,7 +17,7 @@ import klassen.player.PlayerSpritzer;
  */
 public class BasicEnemy extends Enemy
 {
-  
+  //asdf
   public BasicEnemy(float x, float y, int speed, int speedX, int speedY,LinkedList<PlayerSpritzer> playerSpritzers,Player player)
   {
     super(x, y, speed, playerSpritzers, player, new Rectangle((int)x, (int)y, 25, 25));
